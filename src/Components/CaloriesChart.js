@@ -75,6 +75,7 @@ const CaloriesChart = () => {
             tick={{ fill: '#ccc', fontSize: 12 }}
             axisLine={{ stroke: "#FFFFFF", strokeWidth: 1 }}
             tickLine={false}
+            padding={{ top: 0, right: 0, left: 0, bottom: 10 }}
           />
 
           <Tooltip
