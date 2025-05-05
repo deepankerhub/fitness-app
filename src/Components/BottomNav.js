@@ -13,7 +13,7 @@ const BottomNav = ({ active = "home" }) => {
   ];
 
   return (
-    <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 w-[100%] max-w-[fit-content]">
+    <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 w-[100%] max-w-[400px]">
       <div className="flex items-center justify-between gap-2 bg-[rgba(31,41,55,0.6)] backdrop-blur-md px-2 py-2 rounded-[48px] shadow-lg w-full border border-gray-600">
         {navItems.map((item) => {
           const isActive = item.key === active;
