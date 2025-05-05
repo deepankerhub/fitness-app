@@ -1,0 +1,11 @@
+{
+    "weekly": [
+      { "day": "Mon", "calories": 500 },
+      { "day": "Tue", "calories": 800 },
+      { "day": "Wed", "calories": 900 },
+      { "day": "Thu", "calories": 1560 },
+      { "day": "Fri", "calories": 1000 },
+      { "day": "Sat", "calories": 1100 },
+      { "day": "Sun", "calories": 1200 }
+    ]
+  }
