@@ -22,12 +22,12 @@ const Achievements = () => {
         <div className="flex justify-between w-full px-2">
           
           <button className="flex items-center gap-2 text-lime-400 border border-lime-400 bg-[#9AE6001A] px-4 py-3 rounded-full text-base">
-            <span><img src={zapIcon} alt="zapIcon" className="w-4 h-4" /></span>
+            <span><img src={zapIcon} alt="zapIcon" className="w-[24px] h-[24px]" /></span>
             <span className="text-white">New Record!</span>
           </button>
 
           <div className="flex items-center gap-2 bg-[#1C2534] text-gray-300 px-4 py-2 rounded-full text-base border border-gray-600">
-            <span><img src={clockIcon} alt="clockIcon" className="w-4 h-4" /></span>
+            <span><img src={clockIcon} alt="clockIcon" className="w-[24px] h-[24px]" /></span>
             <span className="text-white">24:30 min</span>
           </div>
         </div>
