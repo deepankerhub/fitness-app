@@ -28,7 +28,7 @@ const WorkoutCard = () => {
                 <span>950 Kcal</span>
               </div>
               <div className="w-px h-5 bg-gray-600 opacity-30" />
-              <div className="flex items-center gap-1">
+              <div className="flex items-center gap-0.2rem">
                 <span><img src={loadingIcon} alt="fireIcon" className="w-4 h-4" /></span>
                 <span>60 min</span>
               </div>
@@ -36,7 +36,7 @@ const WorkoutCard = () => {
           </div>
         </div>
 
-        <div className="absolute right-0 top-0 w-1/2 h-full clip-diagonal overflow-hidden">
+        <div className="absolute right-0 top-0 w-[60%] h-full clip-diagonal overflow-hidden">
           <img
             src="/assets/workoutpic.png"
             alt="Workout"

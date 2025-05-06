@@ -16,5 +16,5 @@ code {
 }
 
 .clip-diagonal {
-  clip-path: polygon(100% 0, 20% 0, 0% 100%, 100% 100%);
+  clip-path: polygon(20% 100%,0% 0%,100% 0%,100% 100%)
 }
