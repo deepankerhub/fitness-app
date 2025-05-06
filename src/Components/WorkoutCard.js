@@ -11,7 +11,7 @@ const WorkoutCard = () => {
       </div>
 
       <div className="relative bg-[#0F172B] rounded-[20px] overflow-hidden flex h-auto border border-gray-600">
-        <div className="w-1/2 p-5 relative z-10 flex flex-col justify-between">
+        <div className="w-1/2 py-5 pl-5 pr-0 relative z-10 flex flex-col justify-between">
           <div>
             <div className="bg-[#1D293D] text-lime-400 px-3 py-2 rounded-[32px] text-xs w-fit mb-6 border border-gray-600">● <span className="text-white">Advanced</span></div>
             <h3 className="text-white font-medium text-xl leading-[1.6]">Full Body<br />Workout</h3>

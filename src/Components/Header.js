@@ -4,7 +4,7 @@ import gridIcon from '../assets/icons/dashboard-square-01.svg';
 
 const Header = () => {
   return (
-    <div className="pt-4">
+    <div className="pt-0">
       <div className="flex justify-between items-center mb-4">
         <div className="flex items-center gap-3">
           <img
