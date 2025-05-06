@@ -1,6 +1,6 @@
 import React from 'react';
 import bellIcon from '../assets/icons/notification-03.svg';
-import gridIcon from '../assets/icons/dashboard-square-01.png';
+import gridIcon from '../assets/icons/dashboard-square-01.svg';
 
 const Header = () => {
   return (
@@ -23,7 +23,7 @@ const Header = () => {
             <span className="absolute top-3 right-3.5 w-2.5 h-2.5 rounded-full bg-lime-400"></span>
           </button>
           <button className="w-14 h-14 bg-[#1A1E2E] rounded-xl flex items-center justify-center border border-gray-600">
-            <img src={gridIcon} alt="Menu" className="w-6 h-6 text-white" />
+            <img src={gridIcon} alt="Menu" className="w-6 h-6" />
           </button>
         </div>
       </div>
