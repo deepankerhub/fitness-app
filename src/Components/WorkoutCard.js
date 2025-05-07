@@ -1,6 +1,7 @@
 import React from 'react';
 import fireIcon from '../assets/icons/grey icons/fire-1 1.svg';
 import loadingIcon from '../assets/icons/grey icons/loading-01.svg';
+import playIcon from '../assets/icons/Vector.svg';
 
 const WorkoutCard = () => {
   return (
@@ -19,7 +20,7 @@ const WorkoutCard = () => {
           <div className="flex flex-col gap-3">
       
             <div className="w-14 h-14 rounded-full bg-[#1D2539] flex items-center justify-center mt-4 border border-gray-600">
-              <span className="text-lime-400">▶</span>
+              <span className="text-lime-400"><img src={playIcon} alt="playIcon" className="w-4 h-4" /></span>
             </div>
 
             <div className="flex items-center gap-2 text-gray-300 text-sm mt-2">
@@ -29,7 +30,7 @@ const WorkoutCard = () => {
               </div>
               <div className="w-px h-5 bg-gray-600 opacity-30" />
               <div className="flex items-center gap-0.2rem">
-                <span><img src={loadingIcon} alt="fireIcon" className="w-4 h-4" /></span>
+                <span><img src={loadingIcon} alt="loadingIcon" className="w-4 h-4" /></span>
                 <span>60 min</span>
               </div>
             </div>
