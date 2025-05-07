@@ -1,6 +1,7 @@
 import React from 'react';
 import zapIcon from '../assets/icons/zap.svg';
 import clockIcon from '../assets/icons/clock-01.svg';
+import runIcon from '../assets/icons/runningman.svg';
 
 const Achievements = () => {
   return (
@@ -9,8 +10,8 @@ const Achievements = () => {
 
       <div className="bg-gradient-to-b from-[#1D293D] to-[#0F172B] rounded-[20px] px-6 py-8 flex flex-col items-center text-center mt-6 border border-gray-600">
         
-        <div className="size-[150px] rounded-full bg-[#1C2534] flex items-center justify-center mb-10">
-        <img src="/assets/Frame 50.png" alt="Notifications" className="size-[150px]" />
+        <div className="size-[120px] rounded-full bg-[#FFF1540D] flex items-center justify-center mb-10 border border-gray-600">
+        <img src={runIcon} alt="runIcon" className="w-[47.5px] h-[39.56px]" />
         </div>
 
         <h3 className="text-white text-[22px] font-semibold mb-2">Fastest 5km Run!</h3>
