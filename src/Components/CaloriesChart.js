@@ -23,7 +23,7 @@ const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
     return (
       <div className="relative -translate-y-6 -translate-x-2 z-20">
-        <div className="bg-[#2B3142] shadow-lg rounded-[36px] px-4 py-2 text-white text-xs border border-gray-600">
+        <div className="bg-[#45556C] shadow-lg rounded-[36px] px-4 py-2 text-white text-xs border border-[#62748E]-600">
           <div className="flex items-center gap-2 mb-1">
             <div className="w-2 h-2 bg-lime-400 rounded-[36px]" />
             <span>{label}</span>
